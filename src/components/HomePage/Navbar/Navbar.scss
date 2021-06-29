@@ -1,0 +1,35 @@
+.navbar__section {
+  padding: 1rem 3rem;
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .nav-logo {
+      width: 10rem;
+    }
+
+    .nav-links {
+      .nav-link {
+        display: flex;
+        align-items: center;
+
+        li {
+          .nav__btn {
+            border: none;
+            background-color: var(--red);
+            padding: 0.4em 0;
+
+            a {
+              padding: 0.4rem 1.5rem;
+              font-size: 1.12rem;
+              font-family: "MM";
+              color: var(--grey-0);
+            }
+          }
+        }
+      }
+    }
+  }
+}
