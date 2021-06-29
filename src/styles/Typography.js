@@ -1,12 +1,13 @@
 import { createGlobalStyle } from "styled-components";
+import BebasNeueRegular from "../assets/fonts/BebasNeue-Regular.ttf";
+import LeagueSpartan from "../assets/fonts/LeagueSpartan-Bold.otf";
 import MontserratBold from "../assets/fonts/Montserrat-Bold.ttf";
 import MontserratMedium from "../assets/fonts/Montserrat-Medium.ttf";
 import MontserratRegular from "../assets/fonts/Montserrat-Regular.ttf";
 import MontserratSemiBold from "../assets/fonts/Montserrat-SemiBold.ttf";
-import PoppinsBold from "../assets/fonts/Poppins-Bold.ttf";
-import PoppinsMedium from "../assets/fonts/Poppins-Medium.ttf";
-import PoppinsRegular from "../assets/fonts/Poppins-Regular.ttf";
-import PoppinsSemiBold from "../assets/fonts/Poppins-SemiBold.ttf";
+import OpenSansBold from "../assets/fonts/OpenSans-Bold.ttf";
+import OpenSansExtraBold from "../assets/fonts/OpenSans-ExtraBold.ttf";
+import OpenSansSemiBold from "../assets/fonts/OpenSans-SemiBold.ttf";
 
 const Typography = createGlobalStyle`
   @font-face {
@@ -30,23 +31,28 @@ const Typography = createGlobalStyle`
     font-style: normal;
   }
   @font-face {
-    font-family: 'PB';
-    src: url(${PoppinsBold});
+    font-family: 'OEB';
+    src: url(${OpenSansExtraBold});
     font-style: normal;
   }
   @font-face {
-    font-family: 'PSB';
-    src: url(${PoppinsSemiBold});
+    font-family: 'OB';
+    src: url(${OpenSansBold});
     font-style: normal;
   }
   @font-face {
-    font-family: 'PM';
-    src: url(${PoppinsMedium});
+    font-family: 'OSB';
+    src: url(${OpenSansSemiBold});
     font-style: normal;
   }
   @font-face {
-    font-family: 'PR';
-    src: url(${PoppinsRegular});
+    font-family: 'LSB';
+    src: url(${LeagueSpartan});
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'BNR';
+    src: url(${BebasNeueRegular});
     font-style: normal;
   }
 `;
