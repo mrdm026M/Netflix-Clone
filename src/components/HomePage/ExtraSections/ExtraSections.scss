@@ -1,0 +1,47 @@
+.extra__sections {
+  padding: 0 10rem;
+
+  hr {
+    width: 100%;
+    height: 3px;
+    border: none;
+    background-color: var(--grey-800);
+  }
+
+  .main__content {
+    display: flex;
+    height: 20rem;
+    margin: 5rem 0;
+
+    .content {
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 2.5rem;
+
+      h1 {
+        font-size: 3rem;
+        font-family: "OSB";
+        font-weight: 600;
+        line-height: 1.25;
+        margin-bottom: 1rem;
+        letter-spacing: 0.05rem;
+        word-spacing: 0.05rem;
+      }
+
+      p {
+        width: 90%;
+        font-size: 1.25rem;
+        font-family: "MR";
+        letter-spacing: 0.065rem;
+        word-spacing: 0.075rem;
+        line-height: 1.45;
+      }
+    }
+
+    .extra-image {
+      width: 40%;
+    }
+  }
+}
