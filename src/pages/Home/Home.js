@@ -1,7 +1,9 @@
 import React from "react";
 import sec from "../../assets/data/extraSectionData.js";
 import bgImage from "../../assets/images/bg-image.jpg";
+import { Accordian } from "../../components/HomePage/Accordian/Accordian.js";
 import { ExtraSections } from "../../components/HomePage/ExtraSections/ExtraSections";
+import { Footer } from "../../components/HomePage/Footer/Footer.js";
 import { Hero } from "../../components/HomePage/Hero/Hero";
 import { Navbar } from "../../components/HomePage/Navbar/Navbar";
 import "./Home.scss";
@@ -34,11 +36,9 @@ export const Home = () => {
             />
           );
         })}
-
-        {/* <ExtraSections />
-        <ExtraSections />
-        <ExtraSections /> */}
+        <Accordian />
       </main>
+      <Footer />
     </div>
   );
 };
