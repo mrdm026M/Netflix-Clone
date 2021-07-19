@@ -23,7 +23,7 @@ export const Hero = () => {
               placeholder="Email Address"
             />
             <button>
-              <NavLink to="/">Try For Free</NavLink>
+              <NavLink to="/category">Try For Free</NavLink>
             </button>
           </div>
         </div>
