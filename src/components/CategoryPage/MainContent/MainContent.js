@@ -3,6 +3,7 @@ import apic from "../../../assets/images/2.jpg";
 import logo from "../../../assets/images/logo.png";
 import { CategorySection } from "../CategorySection/CategorySection";
 import "./MainContent.scss";
+import category from "../../../assets/data/categoryData";
 
 export const MainContent = () => {
   return (
@@ -19,7 +20,16 @@ export const MainContent = () => {
         </div>
       </div>
       <div className="content">
-        <CategorySection />
+        {category.map((categories) => {
+          return (
+            <CategorySection
+              img={categories.img}
+              margin={categories.margin}
+              name={categories.name}
+              id={categories.id}
+            />
+          );
+        })}
       </div>
     </div>
   );

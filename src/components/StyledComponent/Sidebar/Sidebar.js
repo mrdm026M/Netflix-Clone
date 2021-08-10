@@ -11,43 +11,43 @@ export const Sidebar = () => {
     <div className="nav">
       <ul className="navbar-nav">
         <li className="nav-items">
-          <NavLink to="/category">
+          <NavLink to="/search">
             <div className="icon">
               <AiOutlineSearch />
             </div>
-            <span className="link-text">Search</span>
+            {/* <span className="link-text">Search</span> */}
           </NavLink>
         </li>
         <li className="nav-items">
-          <NavLink to="/category">
+          <NavLink to="/">
             <div className="icon">
               <AiFillHome />
             </div>
-            <span className="link-text">Home</span>
+            {/* <span className="link-text">Home</span> */}
           </NavLink>
         </li>
         <li className="nav-items">
-          <NavLink to="/category">
-            <div className="icon">
-              <RiSlideshow3Fill />
-            </div>
-            <span className="link-text">TV Shows</span>
-          </NavLink>
-        </li>
-        <li className="nav-items">
-          <NavLink to="/category">
+          <NavLink to="/movies">
             <div className="icon">
               <MdLocalMovies />
             </div>
-            <span className="link-text">Movies</span>
+            {/* <span className="link-text">Movies</span> */}
           </NavLink>
         </li>
         <li className="nav-items">
-          <NavLink to="/category">
+          <NavLink to="/tv">
+            <div className="icon">
+              <RiSlideshow3Fill />
+            </div>
+            {/* <span className="link-text">TV Shows</span> */}
+          </NavLink>
+        </li>
+        <li className="nav-items">
+          <NavLink to="/wishlist">
             <div className="icon">
               <BsViewList />
             </div>
-            <span className="link-text">My List</span>
+            {/* <span className="link-text">My List</span> */}
           </NavLink>
         </li>
       </ul>
