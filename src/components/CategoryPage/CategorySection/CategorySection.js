@@ -18,9 +18,11 @@ export const CategorySection = ({ name, img, margin, id }) => {
           marginTop: `${margin}`,
         }}
       >
-        <NavLink to={data}>
-          <span>{name}</span>
-        </NavLink>
+        <div className="backdrop">
+          <NavLink to={data}>
+            <span>{name}</span>
+          </NavLink>
+        </div>
       </div>
     </div>
   );
