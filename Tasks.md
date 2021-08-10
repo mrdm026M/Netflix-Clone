@@ -5,4 +5,4 @@
 3. Footer (done)
 4. home page (done)
 5. firebase added (done)
-6. change images on home page
+6. change images on home page (done)
